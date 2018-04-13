@@ -24,7 +24,7 @@ echo $output;
 ```php
 require 'Parser.php';
 $parser = new Parser\JParser;
-//You can pass as many values as you want applicable to the following format only
+//You can pass as many values as you want as an array applicable to the following format only
 $custom_tags = ['[custom]' => '<pre>', '[/custom]' => '</pre>'];
 $parser->add_tags($custom_tags);//Adding custom BBCode Tags
 $output = $parser->parse2html([custom]Hello JParser ![/custom]);
