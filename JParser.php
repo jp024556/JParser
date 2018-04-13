@@ -1,9 +1,9 @@
 <?php
-/*########################
+/*#########################
 Author: Jay Prakash
 Email: jp024556@gmail.com
 Licence: MIT
-*/########################
+*/#########################
 namespace Parser;
 
 class JParser{		
