@@ -1,7 +1,6 @@
 # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # JParser
-> A Simple BBCode To HTML Parser Class
-...
+> A Simple BBCode To HTML Parser Class :)
 ```php
 Usage
 
