@@ -4,13 +4,15 @@
 ```php
 Usage
 
-$parser = new JParser;
+require 'Parser.php';
+$parser = new Parser\JParser;
 $output = $parser->parse2html($input);
 echo $output;
 ```
 > Example:
 ```php
-$parser = new JParser;
+require 'Parser.php';
+$parser = new Parser\JParser;
 $output = $parser->parse2html([b]Hello JParser ![/b]);
 echo $output;
 ```
@@ -18,3 +20,21 @@ echo $output;
 ```html
 <b>Hello JParser !</b>
 ```
+## Steps to add custom BBCode Tags
+```php
+require 'Parser.php';
+$parser = new Parser\JParser;
+$custom_tags = ['[custom]' => '<pre>', '[/custom]' => '</pre>'];
+$output = $parser->parse2html([custom]Hello JParser ![/custom]);
+echo $output;
+```
+> The above code will output the following :
+```html
+<pre>Hello JParser !</pre>
+```
+___
+## Status of JParser
+> Maintained
+
+> You will get response to your pull request within 48 hours.
+___
