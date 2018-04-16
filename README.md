@@ -40,5 +40,5 @@ ___
 
 > You will get response to your pull request within 48 hours.
 
-> If you like my work then [donate](paypal.me/jp024556) some bucks to keep me going in future.
+> If you like my work then [donate](http://paypal.me/jp024556) some bucks to keep me going in future.
 ___
