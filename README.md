@@ -37,9 +37,5 @@ echo $output;
 ```
 ___
 ## Status of JParser
-> Maintained
-
-> You will get response to your pull request within 48 hours.
-
-> If you like my work then [donate](https://www.paypal.me/jp024556) some bucks to keep me going in future.
+> Not Maintained any more.
 ___
